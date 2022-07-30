@@ -1,0 +1,4 @@
+
+cd Pasta_do_arquivo.cs
+mcs arquivo.cs
+mono arquivo.exe
