@@ -1,0 +1,15 @@
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\8-Condicionais2\bin\Debug\net6.0\8-Condicionais2.exe
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\8-Condicionais2\bin\Debug\net6.0\8-Condicionais2.deps.json
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\8-Condicionais2\bin\Debug\net6.0\8-Condicionais2.runtimeconfig.json
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\8-Condicionais2\bin\Debug\net6.0\8-Condicionais2.dll
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\8-Condicionais2\bin\Debug\net6.0\8-Condicionais2.pdb
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\8-Condicionais2\obj\Debug\net6.0\8-Condicionais2.csproj.AssemblyReference.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\8-Condicionais2\obj\Debug\net6.0\8-Condicionais2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\8-Condicionais2\obj\Debug\net6.0\8-Condicionais2.AssemblyInfoInputs.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\8-Condicionais2\obj\Debug\net6.0\8-Condicionais2.AssemblyInfo.cs
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\8-Condicionais2\obj\Debug\net6.0\8-Condicionais2.csproj.CoreCompileInputs.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\8-Condicionais2\obj\Debug\net6.0\8-Condicionais2.dll
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\8-Condicionais2\obj\Debug\net6.0\refint\8-Condicionais2.dll
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\8-Condicionais2\obj\Debug\net6.0\8-Condicionais2.pdb
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\8-Condicionais2\obj\Debug\net6.0\8-Condicionais2.genruntimeconfig.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\8-Condicionais2\obj\Debug\net6.0\ref\8-Condicionais2.dll

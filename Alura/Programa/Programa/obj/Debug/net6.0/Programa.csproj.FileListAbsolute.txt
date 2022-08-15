@@ -1,0 +1,15 @@
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\Programa\obj\Debug\net6.0\Programa.csproj.AssemblyReference.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\Programa\obj\Debug\net6.0\Programa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\Programa\obj\Debug\net6.0\Programa.AssemblyInfoInputs.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\Programa\obj\Debug\net6.0\Programa.AssemblyInfo.cs
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\Programa\obj\Debug\net6.0\Programa.csproj.CoreCompileInputs.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\Programa\bin\Debug\net6.0\Programa.exe
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\Programa\bin\Debug\net6.0\Programa.deps.json
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\Programa\bin\Debug\net6.0\Programa.runtimeconfig.json
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\Programa\bin\Debug\net6.0\Programa.dll
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\Programa\bin\Debug\net6.0\Programa.pdb
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\Programa\obj\Debug\net6.0\Programa.dll
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\Programa\obj\Debug\net6.0\refint\Programa.dll
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\Programa\obj\Debug\net6.0\Programa.pdb
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\Programa\obj\Debug\net6.0\Programa.genruntimeconfig.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\Programa\obj\Debug\net6.0\ref\Programa.dll

@@ -1,0 +1,15 @@
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\9-Escopo\bin\Debug\net6.0\9-Escopo.exe
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\9-Escopo\bin\Debug\net6.0\9-Escopo.deps.json
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\9-Escopo\bin\Debug\net6.0\9-Escopo.runtimeconfig.json
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\9-Escopo\bin\Debug\net6.0\9-Escopo.dll
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\9-Escopo\bin\Debug\net6.0\9-Escopo.pdb
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\9-Escopo\obj\Debug\net6.0\9-Escopo.csproj.AssemblyReference.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\9-Escopo\obj\Debug\net6.0\9-Escopo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\9-Escopo\obj\Debug\net6.0\9-Escopo.AssemblyInfoInputs.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\9-Escopo\obj\Debug\net6.0\9-Escopo.AssemblyInfo.cs
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\9-Escopo\obj\Debug\net6.0\9-Escopo.csproj.CoreCompileInputs.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\9-Escopo\obj\Debug\net6.0\9-Escopo.dll
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\9-Escopo\obj\Debug\net6.0\refint\9-Escopo.dll
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\9-Escopo\obj\Debug\net6.0\9-Escopo.pdb
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\9-Escopo\obj\Debug\net6.0\9-Escopo.genruntimeconfig.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Programa\9-Escopo\obj\Debug\net6.0\ref\9-Escopo.dll
