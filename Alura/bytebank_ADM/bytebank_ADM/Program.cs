@@ -32,5 +32,6 @@ Console.WriteLine($"Bonificação: {paula.getBonificacao()} \n");
 gerenciador.Registrar(pedro);
 gerenciador.Registrar(paula);
 
+
 Console.WriteLine($"Total de bonificações: {gerenciador.getBonificacao()} ");
 
