@@ -16,7 +16,7 @@ class Programa
         while (continuar)
         {
             Console.WriteLine($"\nDigite o exercício que você deseja executar");
-            Console.WriteLine($"1 - Soma de 5 inteiros");
+            Console.WriteLine($"1 - Soma de 5 inteiros");0
             Console.WriteLine($"2 - Media de 5 números reais");
             Console.WriteLine($"3 - Imprimir o número H");
             Console.WriteLine($"4 - O aumento de um funcionário");

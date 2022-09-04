@@ -1,0 +1,15 @@
+C:\Users\erick\Meus Programas\CSharp\Alura\ExpReg\ExpReg\bin\Debug\net6.0\ExpReg.exe
+C:\Users\erick\Meus Programas\CSharp\Alura\ExpReg\ExpReg\bin\Debug\net6.0\ExpReg.deps.json
+C:\Users\erick\Meus Programas\CSharp\Alura\ExpReg\ExpReg\bin\Debug\net6.0\ExpReg.runtimeconfig.json
+C:\Users\erick\Meus Programas\CSharp\Alura\ExpReg\ExpReg\bin\Debug\net6.0\ExpReg.dll
+C:\Users\erick\Meus Programas\CSharp\Alura\ExpReg\ExpReg\bin\Debug\net6.0\ExpReg.pdb
+C:\Users\erick\Meus Programas\CSharp\Alura\ExpReg\ExpReg\obj\Debug\net6.0\ExpReg.csproj.AssemblyReference.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\ExpReg\ExpReg\obj\Debug\net6.0\ExpReg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\Meus Programas\CSharp\Alura\ExpReg\ExpReg\obj\Debug\net6.0\ExpReg.AssemblyInfoInputs.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\ExpReg\ExpReg\obj\Debug\net6.0\ExpReg.AssemblyInfo.cs
+C:\Users\erick\Meus Programas\CSharp\Alura\ExpReg\ExpReg\obj\Debug\net6.0\ExpReg.csproj.CoreCompileInputs.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\ExpReg\ExpReg\obj\Debug\net6.0\ExpReg.dll
+C:\Users\erick\Meus Programas\CSharp\Alura\ExpReg\ExpReg\obj\Debug\net6.0\refint\ExpReg.dll
+C:\Users\erick\Meus Programas\CSharp\Alura\ExpReg\ExpReg\obj\Debug\net6.0\ExpReg.pdb
+C:\Users\erick\Meus Programas\CSharp\Alura\ExpReg\ExpReg\obj\Debug\net6.0\ExpReg.genruntimeconfig.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\ExpReg\ExpReg\obj\Debug\net6.0\ref\ExpReg.dll
