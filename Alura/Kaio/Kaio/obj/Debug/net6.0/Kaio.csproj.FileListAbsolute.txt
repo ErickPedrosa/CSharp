@@ -1,0 +1,15 @@
+C:\Users\erick\Meus Programas\CSharp\Alura\Kaio\Kaio\bin\Debug\net6.0\Kaio.exe
+C:\Users\erick\Meus Programas\CSharp\Alura\Kaio\Kaio\bin\Debug\net6.0\Kaio.deps.json
+C:\Users\erick\Meus Programas\CSharp\Alura\Kaio\Kaio\bin\Debug\net6.0\Kaio.runtimeconfig.json
+C:\Users\erick\Meus Programas\CSharp\Alura\Kaio\Kaio\bin\Debug\net6.0\Kaio.dll
+C:\Users\erick\Meus Programas\CSharp\Alura\Kaio\Kaio\bin\Debug\net6.0\Kaio.pdb
+C:\Users\erick\Meus Programas\CSharp\Alura\Kaio\Kaio\obj\Debug\net6.0\Kaio.csproj.AssemblyReference.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Kaio\Kaio\obj\Debug\net6.0\Kaio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\Meus Programas\CSharp\Alura\Kaio\Kaio\obj\Debug\net6.0\Kaio.AssemblyInfoInputs.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Kaio\Kaio\obj\Debug\net6.0\Kaio.AssemblyInfo.cs
+C:\Users\erick\Meus Programas\CSharp\Alura\Kaio\Kaio\obj\Debug\net6.0\Kaio.csproj.CoreCompileInputs.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Kaio\Kaio\obj\Debug\net6.0\Kaio.dll
+C:\Users\erick\Meus Programas\CSharp\Alura\Kaio\Kaio\obj\Debug\net6.0\refint\Kaio.dll
+C:\Users\erick\Meus Programas\CSharp\Alura\Kaio\Kaio\obj\Debug\net6.0\Kaio.pdb
+C:\Users\erick\Meus Programas\CSharp\Alura\Kaio\Kaio\obj\Debug\net6.0\Kaio.genruntimeconfig.cache
+C:\Users\erick\Meus Programas\CSharp\Alura\Kaio\Kaio\obj\Debug\net6.0\ref\Kaio.dll

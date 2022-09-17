@@ -16,7 +16,7 @@ class Programa
         while (continuar)
         {
             Console.WriteLine($"\nDigite o exercício que você deseja executar");
-            Console.WriteLine($"1 - Soma de 5 inteiros");0
+            Console.WriteLine($"1 - Soma de 5 inteiros");
             Console.WriteLine($"2 - Media de 5 números reais");
             Console.WriteLine($"3 - Imprimir o número H");
             Console.WriteLine($"4 - O aumento de um funcionário");
@@ -66,13 +66,13 @@ class Programa
 
         Console.WriteLine($"Digite o 1º inteiro");
         vetor[0] = int.Parse(Console.ReadLine());
-        
+
         Console.WriteLine($"Digite o 2º inteiro");
         vetor[1] = int.Parse(Console.ReadLine());
-        
+
         Console.WriteLine($"Digite o 3º inteiro");
         vetor[2] = int.Parse(Console.ReadLine());
-        
+
         Console.WriteLine($"Digite o 4º inteiro");
         vetor[3] = int.Parse(Console.ReadLine());
 
@@ -131,7 +131,7 @@ class Programa
     static void aumento()
     {
         double salario, porcentagem, aumento, novoSalario;
-        
+
 
         Console.WriteLine($"Digite o salário do funcionário: ");
         salario = double.Parse(Console.ReadLine());
@@ -163,7 +163,7 @@ class Programa
         provas[2] = double.Parse(Console.ReadLine());
 
 
-        media = ( (provas[0] * PesoProva1) + (provas[1] * PesoProva2) + (provas[2] * PesoProva3) ) / PesoTotal;
+        media = ((provas[0] * PesoProva1) + (provas[1] * PesoProva2) + (provas[2] * PesoProva3)) / PesoTotal;
 
         Console.WriteLine($"\nA média ponderada das provas é: {media}");
 

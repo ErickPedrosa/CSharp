@@ -1,0 +1,15 @@
+C:\Users\erick\Meus Programas\CSharp\IP_CSharp\IP13\bin\Debug\net6.0\IP13.exe
+C:\Users\erick\Meus Programas\CSharp\IP_CSharp\IP13\bin\Debug\net6.0\IP13.deps.json
+C:\Users\erick\Meus Programas\CSharp\IP_CSharp\IP13\bin\Debug\net6.0\IP13.runtimeconfig.json
+C:\Users\erick\Meus Programas\CSharp\IP_CSharp\IP13\bin\Debug\net6.0\IP13.dll
+C:\Users\erick\Meus Programas\CSharp\IP_CSharp\IP13\bin\Debug\net6.0\IP13.pdb
+C:\Users\erick\Meus Programas\CSharp\IP_CSharp\IP13\obj\Debug\net6.0\IP13.csproj.AssemblyReference.cache
+C:\Users\erick\Meus Programas\CSharp\IP_CSharp\IP13\obj\Debug\net6.0\IP13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\Meus Programas\CSharp\IP_CSharp\IP13\obj\Debug\net6.0\IP13.AssemblyInfoInputs.cache
+C:\Users\erick\Meus Programas\CSharp\IP_CSharp\IP13\obj\Debug\net6.0\IP13.AssemblyInfo.cs
+C:\Users\erick\Meus Programas\CSharp\IP_CSharp\IP13\obj\Debug\net6.0\IP13.csproj.CoreCompileInputs.cache
+C:\Users\erick\Meus Programas\CSharp\IP_CSharp\IP13\obj\Debug\net6.0\IP13.dll
+C:\Users\erick\Meus Programas\CSharp\IP_CSharp\IP13\obj\Debug\net6.0\refint\IP13.dll
+C:\Users\erick\Meus Programas\CSharp\IP_CSharp\IP13\obj\Debug\net6.0\IP13.pdb
+C:\Users\erick\Meus Programas\CSharp\IP_CSharp\IP13\obj\Debug\net6.0\IP13.genruntimeconfig.cache
+C:\Users\erick\Meus Programas\CSharp\IP_CSharp\IP13\obj\Debug\net6.0\ref\IP13.dll
