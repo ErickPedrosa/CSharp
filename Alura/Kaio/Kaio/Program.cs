@@ -3,11 +3,11 @@
 
 class Program
 {
-    static void Main(string[] args)
-    {
+    static void Main(string[] args){
+
         //Printf
         Console.WriteLine("Imprimir exemplo");
-
+        
         //Scanf
         Console.ReadLine();
 
