@@ -1,0 +1,15 @@
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula05\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Aula05.exe
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula05\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Aula05.deps.json
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula05\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Aula05.runtimeconfig.json
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula05\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Aula05.dll
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula05\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Aula05.pdb
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula05\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Aula05.csproj.AssemblyReference.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula05\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Aula05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula05\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Aula05.AssemblyInfoInputs.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula05\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Aula05.AssemblyInfo.cs
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula05\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Aula05.csproj.CoreCompileInputs.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula05\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Aula05.dll
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula05\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\refint\Aula05.dll
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula05\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Aula05.pdb
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula05\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\Aula05.genruntimeconfig.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula05\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\Aula05.dll

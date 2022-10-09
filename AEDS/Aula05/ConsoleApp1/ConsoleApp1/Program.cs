@@ -1,0 +1,42 @@
+﻿
+
+using Aula05;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Casa casa = new Casa();
+        casa.Pinta("Azul");
+
+        Porta porta = new Porta();
+        Porta porta2 = new Porta();
+        Porta porta3 = new Porta();
+
+        porta.Destrancar();
+        porta.Abrir();
+
+        porta3.Destrancar();
+
+        Porta porta4 = new Porta();
+        porta4.Destrancar();
+        porta4.Abrir();
+
+        Porta porta5 = new Porta();
+        porta5.Destrancar();
+        porta5.Abrir();
+
+
+        casa.AdicionaPorta(porta);
+        casa.AdicionaPorta(porta2);
+        casa.AdicionaPorta(porta3);
+        casa.AdicionaPorta(porta4);
+        casa.AdicionaPorta(porta5);
+
+        Console.WriteLine($"Cor da casa: {casa.Cor}\nNúmero de portas: {casa.TotalPortas()}\nN° de portas abertas: {casa.TotalPortasAbertas()}");
+
+
+        Console.ReadLine();
+    }
+
+}
