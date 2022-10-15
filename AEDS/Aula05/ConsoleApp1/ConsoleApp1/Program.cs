@@ -35,6 +35,27 @@ class Program
 
         Console.WriteLine($"Cor da casa: {casa.Cor}\nNúmero de portas: {casa.TotalPortas()}\nN° de portas abertas: {casa.TotalPortasAbertas()}");
 
+        Console.WriteLine("\n\n");
+
+        int[] ints = new int[5];
+
+        ints[0] = 8;
+        ints[1] = 69;
+        ints[2] = 777;
+        ints[3] = 777;
+        ints[4] = 6;
+
+        int moda = Estatistica.Moda(ints);
+        int mediana = Estatistica.Mediana(ints);
+        double media = Estatistica.Media(ints);
+
+        Console.WriteLine($"Moda: {moda}");
+        Console.WriteLine($"Mediana: {mediana}");
+        Console.WriteLine($"Média: {media}");
+
+        Console.WriteLine("\n\n");
+
+        Pascal.TrianguloP();
 
         Console.ReadLine();
     }
