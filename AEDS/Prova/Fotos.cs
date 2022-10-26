@@ -25,7 +25,7 @@ namespace Prova{
         public void Mostra(){
 
             System.Console.WriteLine($"URL: {Url}");
-            System.Console.WriteLine($"Descrição: {Descricao}");
+            System.Console.WriteLine($"Descrição: {Descricao}\n");
 
         }
     }

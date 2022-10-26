@@ -13,7 +13,14 @@ namespace Prova{
         private string email;
         private int numPets;
 
-        public Fotos[] Pict { get; set; }
+        public Fotos[] Pict { 
+            get{
+                return this.pict;
+            } 
+            set{
+                this.pict = value;
+            }
+        }
         public string Nome { get; set; }
         public string Email { get; set; }
         public int NumPets { get; private set; }
@@ -56,8 +63,8 @@ namespace Prova{
         }
 
         public void Imprime(){
-            System.Console.WriteLine($"Nome: {Nome}");
-            System.Console.WriteLine($"Email: {Email}");
+            System.Console.WriteLine($"Nome: {Nome}\n");
+            System.Console.WriteLine($"Email: {Email}\n");
             
             int i = 1;
             foreach (Fotos f in pict)
@@ -80,7 +87,7 @@ namespace Prova{
 
                 i++;
             }
-            
+
         }
     }
 

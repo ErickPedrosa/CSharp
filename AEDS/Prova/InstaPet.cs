@@ -74,7 +74,7 @@ namespace Prova{
 
             for(int i = 0; i < user.Length; i++){
                 if(user[i].Email == email){
-
+                    
                     return user[i].Pict;
 
                 }
@@ -98,7 +98,7 @@ namespace Prova{
 
         public Usuario[] ListarUsuarios(){
 
-            return User;
+            return user;
 
         }
 
@@ -107,9 +107,10 @@ namespace Prova{
             int i = 1;
             foreach (Usuario u in user)
             {
-                System.Console.WriteLine($"Usuário {i}:");
+                System.Console.WriteLine($"\nUsuário {i}:\n");
                 u.Imprime();
 
+                System.Console.WriteLine();
                 i++;
             }
             

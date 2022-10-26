@@ -9,6 +9,7 @@ namespace Prova{
 
     public class Program
     {
+        
         public static void Main(string[] args){
 
 
@@ -36,11 +37,35 @@ namespace Prova{
             instapet.AlteraDescricao("erick.pedrosa.b@gmail.com", 3, "Nova Descrição");
 
             //instapet.ImprimePets("kaioffn@gmail.com");
+            //instapet.ImprimePets("juju@gmail.com");
+            //instapet.ImprimePets("erick.pedrosa.b@gmail.com");
 
             instapet.ImprimeUsuarios();
 
+            Usuario[] usuarios = instapet.ListarUsuarios();
+            Fotos[] fotos = instapet.ListarPets("juju@gmail.com");            
+            
+            /*
+            for(int i = 0; i < usuarios.Length; i++){
+                System.Console.WriteLine($"Usuário {i}:");
+                usuarios[i].Imprime();
+            }
+            
+            for(int i = 0; i < fotos.Length; i++)
+            {
+                System.Console.WriteLine($"Foto {i}: ");
+                fotos[i].Mostra();
+
+                
+            }
+            */
+          
         }
 
+ 
     }
+
+    
+
 
 }
