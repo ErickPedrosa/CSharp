@@ -70,7 +70,18 @@ namespace Prova{
 
         }
 
+        public void ImprimePets(){
 
+            int i = 1;
+            foreach (Fotos f in pict)
+            {
+                System.Console.WriteLine($"Foto {i}: ");
+                f.Mostra();
+
+                i++;
+            }
+            
+        }
     }
 
 }

@@ -57,12 +57,9 @@ namespace Prova{
         }
 
         public int QntPets(string email){
-            foreach (Usuario u in User)
-            {
-                if(u.Email == email){
-
-                    return u.NumPets; 
-                
+            for(int i = 0; i < user.Length; i++){
+                if(user[i].Email == email){
+                    return user[i].NumPets; 
                 }
             }
             return (-1);
@@ -73,12 +70,12 @@ namespace Prova{
         }
 
         public Fotos[] ListarPets(string email){
+            
 
-            foreach (Usuario u in User)
-            {
-                if(u.Email == email){
+            for(int i = 0; i < user.Length; i++){
+                if(user[i].Email == email){
 
-                    return u.Pict;
+                    return user[i].Pict;
 
                 }
             }
@@ -88,17 +85,12 @@ namespace Prova{
 
         public void ImprimePets(string email){
 
-            foreach (Usuario u in User)
-            {
-                if(u.Email == email){
+            for(int i = 0; i < user.Length; i++){
 
-                    int i = 1;
-                    foreach (Fotos f in u.Pict)
-                    {
-                        System.Console.WriteLine($"Foto {i}:");
-                        f.Mostra();
-                    }
+                if(user[i].Email == email){
 
+                    user[i].ImprimePets();
+                    
                 }
                 
             }
@@ -117,20 +109,24 @@ namespace Prova{
             {
                 System.Console.WriteLine($"Usuário {i}:");
                 u.Imprime();
-            }
 
+                i++;
+            }
+            
         }
 
         public void AlteraDescricao(string email, int n, string desc){
 
-            foreach (Usuario u in User)
-            {
-                if(u.Email == email){
+            for(int i = 0; i < user.Length; i++){
 
-                    u.AlteraDescricao(n, desc);
-                
+                if(user[i].Email == email){
+
+                    user[i].AlteraDescricao(n, desc);
+                    
                 }
+                
             }
+
 
         }
 

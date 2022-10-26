@@ -27,9 +27,18 @@ namespace Prova{
             instapet.CadastraFoto("erick.pedrosa.b@gmail.com", "www.foto7.com", "foto 7");
             instapet.CadastraFoto("erick.pedrosa.b@gmail.com", "www.foto8.com", "foto 8");
             instapet.CadastraFoto("erick.pedrosa.b@gmail.com", "www.foto9.com", "foto 9");
-        
-            instapet.
-        
+
+            //System.Console.WriteLine($"Quantidade de usuários de InstaPet: {instapet.QntUsuarios()}");
+            
+            int qntPets = instapet.QntPets("juju@gmail.com");
+            //System.Console.WriteLine($"Quantidade de pets/fotos de juju@gmail.com: {qntPets}\n\n");
+
+            instapet.AlteraDescricao("erick.pedrosa.b@gmail.com", 3, "Nova Descrição");
+
+            //instapet.ImprimePets("kaioffn@gmail.com");
+
+            instapet.ImprimeUsuarios();
+
         }
 
     }
