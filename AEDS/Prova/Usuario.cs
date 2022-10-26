@@ -11,10 +11,12 @@ namespace Prova{
         private Fotos[] pict;
         private string nome;
         private string email;
+        private int numPets;
 
         public Fotos[] Pict { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
+        public int NumPets { get; private set; }
 
         public void CadastraFoto(string link, string desc){
             Fotos foto = new Fotos(link, desc);
@@ -38,6 +40,7 @@ namespace Prova{
                 pict = fotosBuff;
             }
 
+            this.NumPets++;
         }
 
         public void AlteraDescricao(int n, string novaDesc){
@@ -49,6 +52,7 @@ namespace Prova{
         public Usuario(string nome, string email){
             this.Nome = nome;
             this.Email = email;
+            this.NumPets = 0;
         }
 
         public void Imprime(){
