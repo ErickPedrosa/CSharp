@@ -1,0 +1,15 @@
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula07\Aula07\Aula07\bin\Debug\net6.0\Aula07.exe
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula07\Aula07\Aula07\bin\Debug\net6.0\Aula07.deps.json
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula07\Aula07\Aula07\bin\Debug\net6.0\Aula07.runtimeconfig.json
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula07\Aula07\Aula07\bin\Debug\net6.0\Aula07.dll
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula07\Aula07\Aula07\bin\Debug\net6.0\Aula07.pdb
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula07\Aula07\Aula07\obj\Debug\net6.0\Aula07.csproj.AssemblyReference.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula07\Aula07\Aula07\obj\Debug\net6.0\Aula07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula07\Aula07\Aula07\obj\Debug\net6.0\Aula07.AssemblyInfoInputs.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula07\Aula07\Aula07\obj\Debug\net6.0\Aula07.AssemblyInfo.cs
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula07\Aula07\Aula07\obj\Debug\net6.0\Aula07.csproj.CoreCompileInputs.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula07\Aula07\Aula07\obj\Debug\net6.0\Aula07.dll
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula07\Aula07\Aula07\obj\Debug\net6.0\refint\Aula07.dll
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula07\Aula07\Aula07\obj\Debug\net6.0\Aula07.pdb
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula07\Aula07\Aula07\obj\Debug\net6.0\Aula07.genruntimeconfig.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\Aula07\Aula07\Aula07\obj\Debug\net6.0\ref\Aula07.dll
