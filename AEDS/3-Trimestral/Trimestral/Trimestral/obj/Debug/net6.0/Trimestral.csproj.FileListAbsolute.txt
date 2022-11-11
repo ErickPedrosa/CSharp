@@ -1,0 +1,15 @@
+C:\Users\erick\Meus Programas\CSharp\AEDS\3-Trimestral\Trimestral\Trimestral\bin\Debug\net6.0\Trimestral.exe
+C:\Users\erick\Meus Programas\CSharp\AEDS\3-Trimestral\Trimestral\Trimestral\bin\Debug\net6.0\Trimestral.deps.json
+C:\Users\erick\Meus Programas\CSharp\AEDS\3-Trimestral\Trimestral\Trimestral\bin\Debug\net6.0\Trimestral.runtimeconfig.json
+C:\Users\erick\Meus Programas\CSharp\AEDS\3-Trimestral\Trimestral\Trimestral\bin\Debug\net6.0\Trimestral.dll
+C:\Users\erick\Meus Programas\CSharp\AEDS\3-Trimestral\Trimestral\Trimestral\bin\Debug\net6.0\Trimestral.pdb
+C:\Users\erick\Meus Programas\CSharp\AEDS\3-Trimestral\Trimestral\Trimestral\obj\Debug\net6.0\Trimestral.csproj.AssemblyReference.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\3-Trimestral\Trimestral\Trimestral\obj\Debug\net6.0\Trimestral.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\Meus Programas\CSharp\AEDS\3-Trimestral\Trimestral\Trimestral\obj\Debug\net6.0\Trimestral.AssemblyInfoInputs.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\3-Trimestral\Trimestral\Trimestral\obj\Debug\net6.0\Trimestral.AssemblyInfo.cs
+C:\Users\erick\Meus Programas\CSharp\AEDS\3-Trimestral\Trimestral\Trimestral\obj\Debug\net6.0\Trimestral.csproj.CoreCompileInputs.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\3-Trimestral\Trimestral\Trimestral\obj\Debug\net6.0\Trimestral.dll
+C:\Users\erick\Meus Programas\CSharp\AEDS\3-Trimestral\Trimestral\Trimestral\obj\Debug\net6.0\refint\Trimestral.dll
+C:\Users\erick\Meus Programas\CSharp\AEDS\3-Trimestral\Trimestral\Trimestral\obj\Debug\net6.0\Trimestral.pdb
+C:\Users\erick\Meus Programas\CSharp\AEDS\3-Trimestral\Trimestral\Trimestral\obj\Debug\net6.0\Trimestral.genruntimeconfig.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\3-Trimestral\Trimestral\Trimestral\obj\Debug\net6.0\ref\Trimestral.dll
