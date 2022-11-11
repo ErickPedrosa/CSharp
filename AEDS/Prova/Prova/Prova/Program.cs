@@ -21,7 +21,7 @@ namespace Prova
             instapet.CadastraUsuario("Júlia Almeida", "juju@gmail.com");
             instapet.CadastraUsuario("Kaio Fernandes", "kaioffn@gmail.com");
 
-            instapet.CadastraFoto("juju@gmail.com", "ww.foto1.com", "foto 1");
+            instapet.CadastraFoto("juju@gmail.com", "www.foto1.com", "foto 1");
             instapet.CadastraFoto("juju@gmail.com", "www.foto2.com", "foto 2");
             instapet.CadastraFoto("juju@gmail.com", "www.foto3.com", "foto 3");
             instapet.CadastraFoto("kaioffn@gmail.com", "www.foto4.com", "foto 4");
