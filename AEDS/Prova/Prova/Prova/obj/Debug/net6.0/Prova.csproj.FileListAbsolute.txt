@@ -1,0 +1,15 @@
+C:\Users\erick\Meus Programas\CSharp\AEDS\Prova\Prova\Prova\bin\Debug\net6.0\Prova.exe
+C:\Users\erick\Meus Programas\CSharp\AEDS\Prova\Prova\Prova\bin\Debug\net6.0\Prova.deps.json
+C:\Users\erick\Meus Programas\CSharp\AEDS\Prova\Prova\Prova\bin\Debug\net6.0\Prova.runtimeconfig.json
+C:\Users\erick\Meus Programas\CSharp\AEDS\Prova\Prova\Prova\bin\Debug\net6.0\Prova.dll
+C:\Users\erick\Meus Programas\CSharp\AEDS\Prova\Prova\Prova\bin\Debug\net6.0\Prova.pdb
+C:\Users\erick\Meus Programas\CSharp\AEDS\Prova\Prova\Prova\obj\Debug\net6.0\Prova.csproj.AssemblyReference.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\Prova\Prova\Prova\obj\Debug\net6.0\Prova.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\Meus Programas\CSharp\AEDS\Prova\Prova\Prova\obj\Debug\net6.0\Prova.AssemblyInfoInputs.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\Prova\Prova\Prova\obj\Debug\net6.0\Prova.AssemblyInfo.cs
+C:\Users\erick\Meus Programas\CSharp\AEDS\Prova\Prova\Prova\obj\Debug\net6.0\Prova.csproj.CoreCompileInputs.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\Prova\Prova\Prova\obj\Debug\net6.0\Prova.dll
+C:\Users\erick\Meus Programas\CSharp\AEDS\Prova\Prova\Prova\obj\Debug\net6.0\refint\Prova.dll
+C:\Users\erick\Meus Programas\CSharp\AEDS\Prova\Prova\Prova\obj\Debug\net6.0\Prova.pdb
+C:\Users\erick\Meus Programas\CSharp\AEDS\Prova\Prova\Prova\obj\Debug\net6.0\Prova.genruntimeconfig.cache
+C:\Users\erick\Meus Programas\CSharp\AEDS\Prova\Prova\Prova\obj\Debug\net6.0\ref\Prova.dll

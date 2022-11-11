@@ -1,5 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
+/*
 Console.Write("Informe um e-mail:  ");
 var caracteres = Console.ReadLine();
 
@@ -11,10 +12,10 @@ if (!ok)
 else
 {
     Console.WriteLine("O valor informado é um e-mail válido.");
-}
+}*/
 
 
-
+/*
 Console.Write("Informe um cpf para validação: ");
 var cpf = Console.ReadLine();
 
@@ -27,4 +28,22 @@ if (combinou.Success)
 else
 {
     Console.WriteLine("CPF inválido.");
+}
+*/
+
+
+Console.Write("Informe um url para validação: ");
+var url = Console.ReadLine();
+
+
+Regex regex = new Regex(@"(hhtp(s)?://)?(www.)?[a-zA-Z_0-9]+(.com)(.br)?", RegexOptions.IgnoreCase);
+
+var combinou = regex.Match(url);
+if (combinou.Success)
+{
+    Console.WriteLine("email no formato válido.");
+}
+else
+{
+    Console.WriteLine("email inválido.");
 }
