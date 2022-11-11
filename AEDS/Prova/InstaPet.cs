@@ -1,25 +1,29 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Prova{
+namespace Prova
+{
 
-    public class InstaPet{
+    public class InstaPet
+    {
 
         private Usuario[] user;
         private int NumUsuarios;
 
-        public Usuario[] User{ get; set; }
+        public Usuario[] User { get; set; }
 
-        public InstaPet(){
+        public InstaPet()
+        {
             NumUsuarios = 0;
         }
 
 
-        public void CadastraUsuario(string nome, string email){
+        public void CadastraUsuario(string nome, string email)
+        {
             Usuario usuario = new Usuario(nome, email);
 
             if (user == null)
@@ -43,10 +47,13 @@ namespace Prova{
             NumUsuarios++;
         }
 
-        public void CadastraFoto(string email, string url, string desc){
+        public void CadastraFoto(string email, string url, string desc)
+        {
 
-            for(int i = 0; i < user.Length; i++){
-                if(user[i].Email == email){
+            for (int i = 0; i < user.Length; i++)
+            {
+                if (user[i].Email == email)
+                {
 
                     user[i].CadastraFoto(url, desc);
 
@@ -56,53 +63,65 @@ namespace Prova{
 
         }
 
-        public int QntPets(string email){
-            for(int i = 0; i < user.Length; i++){
-                if(user[i].Email == email){
-                    return user[i].NumPets; 
+        public int QntPets(string email)
+        {
+            for (int i = 0; i < user.Length; i++)
+            {
+                if (user[i].Email == email)
+                {
+                    return user[i].NumPets;
                 }
             }
             return (-1);
         }
 
-        public int QntUsuarios(){
+        public int QntUsuarios()
+        {
             return NumUsuarios;
         }
 
-        public Fotos[] ListarPets(string email){
-            
+        public Fotos[] ListarPets(string email)
+        {
 
-            for(int i = 0; i < user.Length; i++){
-                if(user[i].Email == email){
-                    
+
+            for (int i = 0; i < user.Length; i++)
+            {
+                if (user[i].Email == email)
+                {
+
                     return user[i].Pict;
 
                 }
             }
-            
+
             return null;
         }
 
-        public void ImprimePets(string email){
+        public void ImprimePets(string email)
+        {
 
-            for(int i = 0; i < user.Length; i++){
+            for (int i = 0; i < user.Length; i++)
+            {
 
-                if(user[i].Email == email){
+                if (user[i].Email == email)
+                {
 
                     user[i].ImprimePets();
-                    
+
                 }
-                
+
             }
         }
 
-        public Usuario[] ListarUsuarios(){
+        public Usuario[] ListarUsuarios()
+        {
 
             return user;
 
         }
 
-        public void ImprimeUsuarios(){
+        public void ImprimeUsuarios()
+        {
 
             int i = 1;
             foreach (Usuario u in user)
@@ -113,19 +132,22 @@ namespace Prova{
                 System.Console.WriteLine();
                 i++;
             }
-            
+
         }
 
-        public void AlteraDescricao(string email, int n, string desc){
+        public void AlteraDescricao(string email, int n, string desc)
+        {
 
-            for(int i = 0; i < user.Length; i++){
+            for (int i = 0; i < user.Length; i++)
+            {
 
-                if(user[i].Email == email){
+                if (user[i].Email == email)
+                {
 
                     user[i].AlteraDescricao(n, desc);
-                    
+
                 }
-                
+
             }
 
 

@@ -1,16 +1,18 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Prova{
+namespace Prova
+{
 
     public class Program
     {
-        
-        public static void Main(string[] args){
+
+        public static void Main(string[] args)
+        {
 
 
             InstaPet instapet = new InstaPet();
@@ -30,7 +32,7 @@ namespace Prova{
             instapet.CadastraFoto("erick.pedrosa.b@gmail.com", "www.foto9.com", "foto 9");
 
             //System.Console.WriteLine($"Quantidade de usuários de InstaPet: {instapet.QntUsuarios()}");
-            
+
             int qntPets = instapet.QntPets("juju@gmail.com");
             //System.Console.WriteLine($"Quantidade de pets/fotos de juju@gmail.com: {qntPets}\n\n");
 
@@ -43,8 +45,8 @@ namespace Prova{
             instapet.ImprimeUsuarios();
 
             Usuario[] usuarios = instapet.ListarUsuarios();
-            Fotos[] fotos = instapet.ListarPets("juju@gmail.com");            
-            
+            Fotos[] fotos = instapet.ListarPets("juju@gmail.com");
+
             /*
             for(int i = 0; i < usuarios.Length; i++){
                 System.Console.WriteLine($"Usuário {i}:");
@@ -59,13 +61,13 @@ namespace Prova{
                 
             }
             */
-          
+
         }
 
- 
+
     }
 
-    
+
 
 
 }
