@@ -11,10 +11,14 @@ namespace Prova
     {
         public static bool ValidaURL(string url)
         {
-            Regex regex = new Regex(@"(hhtp(s)?://)?((w){3}(\.))?[a-z0-9]+(\.com)(\.br)?", RegexOptions.IgnoreCase);
+
+            Regex regex = new Regex(@"(http(s)?://)?((w){3}(\.))?[a-z0-9]+(\.com)(\.br)?", RegexOptions.IgnoreCase);
 
             var combinou = regex.Match(url);
-            if (combinou.Success)
+            var match = combinou.Value;
+
+
+            if (combinou.Success && url == match)
             {
                 //Console.WriteLine("url no formato válido.");
                 return true;
