@@ -15,6 +15,9 @@ namespace Trimestral
         private int numMesa;
         private string data;
         private bool reservado;
+        private Comanda comanda;
+
+        public Comanda Comanda { get { return comanda; } private set { comanda = value; } }
 
         public int TamanhoDaMesa { get { return tamanhoDaMesa; } private set { tamanhoDaMesa = value; } }
         public int NumMesa { get { return numMesa; } private set { numMesa = value; } }
@@ -26,7 +29,9 @@ namespace Trimestral
         {
             numMesa = incremento;
             incremento++;
-
+            Reservado = false;
+            Data = DateTime.Now.ToString();
+            Comanda = new Comanda();
         }
 
         public bool Reservar()
@@ -49,7 +54,7 @@ namespace Trimestral
             }
             else
             {
-                Reservado = false;
+                Reservado = true;
                 TamanhoDaMesa = numDeClientes;
                 return true;
             }
@@ -62,59 +67,84 @@ namespace Trimestral
         }*/
         public bool AdicionarClientes(string nome, string email)
         {
+
             Cliente c = new Cliente(nome, email);
+            
 
-            if(c == null)
+            if (Reservado == true)
             {
-                Clientes = new Cliente[1];
-                Clientes[0] = c;
+                c.Mesa = this;
 
-                return true;
-            }
-            else if(Clientes.Length < TamanhoDaMesa)
-            {
-                Cliente[] clientesBuff = new Cliente[Clientes.Length + 1];
-
-                for (int i = 0; i < Clientes.Length; i++)
+                if (Clientes == null)
                 {
-                    clientesBuff[i] = Clientes[i];
+                    Clientes = new Cliente[1];
+                    Clientes[0] = c;
+
+                    return true;
                 }
-                clientesBuff[Clientes.Length] = c;
+                else if ( !(Clientes == null) && (Clientes.Length < TamanhoDaMesa) )
+                {
+                    Cliente[] clientesBuff = new Cliente[Clientes.Length + 1];
 
-                Clientes = clientesBuff;
+                    for (int i = 0; i < Clientes.Length; i++)
+                    {
+                        clientesBuff[i] = Clientes[i];
+                    }
+                    clientesBuff[Clientes.Length] = c;
 
-                return true;
+                    Clientes = clientesBuff;
+
+                    return true;
+
+                }
+                else
+                {
+                    return false;
+                }
+
             }
             else
             {
                 return false;
             }
+
+            
 
 
         }
         public bool AdicionarClientes(Cliente c)
         {
-
-            if (Clientes == null)
+            
+            if (Reservado == true)
             {
-                Clientes = new Cliente[1];
-                Clientes[0] = c;
-
-                return true;
-            }
-            else if (Clientes.Length < TamanhoDaMesa)
-            {
-                Cliente[] clientesBuff = new Cliente[Clientes.Length + 1];
-
-                for (int i = 0; i < Clientes.Length; i++)
+                c.Mesa = this;
+                if (Clientes == null)
                 {
-                    clientesBuff[i] = Clientes[i];
+                    Clientes = new Cliente[1];
+                    Clientes[0] = c;
+
+                    return true;
                 }
-                clientesBuff[Clientes.Length] = c;
+                else if (!(Clientes == null) && (Clientes.Length < TamanhoDaMesa))
+                {
+                    Cliente[] clientesBuff = new Cliente[Clientes.Length + 1];
 
-                Clientes = clientesBuff;
+                    for (int i = 0; i < Clientes.Length; i++)
+                    {
+                        clientesBuff[i] = Clientes[i];
+                    }
+                    clientesBuff[Clientes.Length] = c;
 
-                return true;
+                    Clientes = clientesBuff;
+
+                    return true;
+
+                }
+                else
+                {
+                    return false;
+                }
+
             }
             else
             {
@@ -124,5 +154,31 @@ namespace Trimestral
 
         }
 
+        public void AnotarPedido(string pedido, double preco)
+        {
+            Comanda.AnotarPedido(pedido, preco);
+        }
+
+
+        public void ImprimeMesa()
+        {
+            Console.WriteLine($"Número da Mesa: {NumMesa}");
+            Console.WriteLine($"Data: {Data}");
+            Console.WriteLine($"Reservado: {Reservado}");
+            if(Clientes != null)
+            {
+                Console.WriteLine($"Número de clientes: {Clientes.Length}");
+
+                for (int i = 0; i < Clientes.Length; i++)
+                {
+                    Console.WriteLine($"\nCliente {i + 1}: ");
+                    Clientes[i].ImprimeCliente();
+                }
+
+                Console.WriteLine($"\nConsumo da mesa:");
+                Comanda.ListarConsumo();
+            }
+
+        }
     }
 }

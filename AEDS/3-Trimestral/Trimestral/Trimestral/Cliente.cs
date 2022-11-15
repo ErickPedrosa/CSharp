@@ -12,7 +12,7 @@ namespace Trimestral
         private string email;
         private Mesa mesa;
 
-        public Mesa Mesa { get { return mesa; } private set { mesa = value; } }
+        public Mesa Mesa { get { return mesa; } set { mesa = value; } }
         public string Nome { get { return nome; } set { nome = value; } }
         public string Email { get { return email; } set { email = value; } }
 
@@ -22,16 +22,17 @@ namespace Trimestral
             Email = email;
         }
 
-        public void SentarEmUmaMesa(Mesa mesa)
+
+        public void ImprimeCliente()
         {
-            bool sentado = mesa.AdicionarClientes(this);
-            if (sentado)
+            Console.WriteLine($"Nome: {Nome}");
+            Console.WriteLine($"Email: {Email}");
+            /*if (Mesa != null)
             {
-                Mesa = mesa;
-            }
+                Console.WriteLine($"Número da Mesa: {Mesa.NumMesa}");
+            }*/
             
         }
-
 
 
     }
