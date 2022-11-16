@@ -53,7 +53,7 @@ namespace Trimestral
             */
 
             /* ----- Debug Restaurante ----- */
-                                                        
+            /*                                           
             Restaurante r = new Restaurante("Bill's", "R. das Cerejeiras, 144", 5); // Zero ou menos mesas levanta uma Exception;
 
             Console.WriteLine(r.Nome);
@@ -74,6 +74,7 @@ namespace Trimestral
             r.Mesa[0].AdicionarClientes("Honda", "h@gmail.com");
             r.Mesa[0].AdicionarClientes("El Maia", "l@gmail.com");
             r.Mesa[0].AdicionarClientes("João", "j@gmail.com");
+            r.Mesa[0].RemoverClientes("j@gmail.com");
 
             r.Mesa[1].AdicionarClientes("Erick", "e@gmail.com");
             r.Mesa[1].AdicionarClientes("Gabi", "g@gmail.com"); // Retorna False pois a reserva é para 1;
@@ -91,8 +92,163 @@ namespace Trimestral
 
             Console.WriteLine("\n\n");
             r.ImprimeRestaurante();
-            
+            */
 
+            Menu();
+
+
+
+        }
+
+        public static void Menu()
+        {
+            bool ativo = true;
+
+            Restaurante rest = new Restaurante("Buchinho Cheio", "Av. Presidente Antonio Carlos", 4);
+
+            do
+            {
+                EscreveLinha(50);
+                Console.WriteLine($"Bem vindos ao Restaurante {rest.Nome}");
+                EscreveLinha(50);
+
+                Opcoes();
+                EscreveLinha(50);
+
+                Console.WriteLine("Qual operação você deseja realizar: ");
+                int op = int.Parse(Console.ReadLine());
+
+                switch (op)
+                {
+                    case 0:
+                        ativo = false;
+                        break;
+                    case 1:
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        rest.ImprimeRestaurante();
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine("");
+
+                        break;
+
+
+                    case 2:
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine($"Digite o número de mesas que irão aumentar (digite um número negativo para diminuir): ");
+                        int n = int.Parse(Console.ReadLine());
+                        rest.AdicionaOuRemoveMesas(n);
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine("");
+                        break;
+
+
+                    case 3:
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine($"Digite o número da mesa que você deseja reservar: ");
+                        int x = int.Parse(Console.ReadLine());
+                        Console.WriteLine($"Digite o número de pessoas para a mesa que você deseja reservar: ");
+                        int numPessoas = int.Parse(Console.ReadLine());
+                        rest.Mesa[x - 1].Reservar(numPessoas);
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine("");
+                        break;
+
+
+                    case 4:
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine($"Digite o número da mesa que você o cliente deseja se assentar: ");
+                        int y = int.Parse(Console.ReadLine());
+                        y = y - 1;
+                        if(rest.Mesa[y].Reservado)
+                        {
+                            Console.WriteLine("Mesa reservada corretamente\n");
+                            Console.WriteLine($"Digite o nome do cliente: ");
+                            string nome = Console.ReadLine();
+                            Console.WriteLine($"Digite o email do cliente: ");
+                            string email = Console.ReadLine();
+                            rest.Mesa[y].AdicionarClientes(nome, email);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Mesa não reservada. Impossível assentar-se!!!");
+                            
+                        }
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine("");
+                        break;
+
+
+                    case 5:
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine($"Digite o número da mesa que você deseja remover um cliente: ");
+                        int z = int.Parse(Console.ReadLine());
+                        z = z - 1;
+                        if (rest.Mesa[z].Reservado)
+                        {
+                            Console.WriteLine("Mesa reservada corretamente\n");
+                            Console.WriteLine($"Digite o email do cliente: ");
+                            string email = Console.ReadLine();
+                            rest.Mesa[z].RemoverClientes(email);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Mesa não reservada, portanto não há ninguem para remover!!!");
+
+                        }
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine("");
+                        break;
+                    case 6:
+                        break;
+                    case 7:
+                        break;
+                    case 8:
+                        break;
+                    case 9:
+                        break;
+                    default:
+                        break;
+                }
+
+
+                 
+
+
+            } while (ativo);
+        }
+
+        public static void Opcoes()
+        {
+            Console.WriteLine(@"1 - Imprimir situação atual do restaurante
+2 - Aumentar/Reduzir o número de mesas
+3 - Reservar uma mesa
+4 - Adicionar um cliente a uma mesa
+5 - Remover um cliente de uma mesa
+6 - Fazer um pedido
+7 - Listar a conta total de uma mesa
+8 - Calcular 10%
+9 - Dividir a conta
+0 - Sair do Restaurante");
+        }
+
+        public static void EscreveLinha(int x)
+        {
+            for (int i = 0; i < x; i++)
+            {
+                Console.Write('-');
+            }
+
+            Console.WriteLine("");
 
         }
 

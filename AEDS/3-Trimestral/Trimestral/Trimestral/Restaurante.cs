@@ -107,7 +107,7 @@ namespace Trimestral
             Console.WriteLine($"Número de Mesas: {Mesa.Length}");
             for (int i = 0; i < Mesa.Length; i++)
             {
-                Console.WriteLine($"\nMesa {i + 1}: ");
+                Console.WriteLine($"\n\nMesa {i + 1}: ");
                 Mesa[i].ImprimeMesa();
             }
         }

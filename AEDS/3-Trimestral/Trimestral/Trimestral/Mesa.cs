@@ -42,7 +42,9 @@ namespace Trimestral
             }
             else
             {
-                Reservado = false;
+                Reservado = true;
+                tamanhoDaMesa = 2;
+                Data = DateTime.Now.ToString();
                 return true;
             }
         }
@@ -56,6 +58,7 @@ namespace Trimestral
             {
                 Reservado = true;
                 TamanhoDaMesa = numDeClientes;
+                Data = DateTime.Now.ToString();
                 return true;
             }
         }
@@ -154,6 +157,59 @@ namespace Trimestral
 
         }
 
+        public bool RemoverClientes(Cliente c)
+        {
+            if (Clientes == null)
+            {
+                return false;
+            }
+            else
+            {
+                for (int i = 0; i < Clientes.Length; i++)
+                {
+                    if (Clientes[i] == c)
+                    {
+                        Cliente[] buffer = new Cliente[Clientes.Length - 1];
+
+                        for (int j = 0; j < i; j++)
+                        {
+                            buffer[j] = Clientes[j];
+                        }
+                        for (int j = (i + 1); j < Clientes.Length; j++)
+                        {
+                            buffer[j] = Clientes[j];
+                        }
+                        Clientes = buffer;
+
+                        return true;
+                    }
+
+                }
+
+                return false;
+            }
+        }
+        public bool RemoverClientes(string email)
+        {
+            if (Clientes == null)
+            {
+                return false;
+            }
+            else
+            {
+                for (int i = 0; i < Clientes.Length; i++)
+                {
+                    if (Clientes[i].Email == email)
+                    {
+                        RemoverClientes(Clientes[i]);
+                    }
+                }
+            }
+            return false;
+              
+        }
+        
+        
         public void AnotarPedido(string pedido, double preco)
         {
             Comanda.AnotarPedido(pedido, preco);
