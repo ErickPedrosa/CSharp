@@ -94,43 +94,6 @@ namespace Trimestral
             
 
 
-            using (var stream = new FileStream("teste.txt", FileMode.OpenOrCreate))
-            {
-
-                var reader = new StreamReader(stream);
-
-                var utf8 = new UTF8Encoding();
-                byte[] bts = utf8.GetBytes(r.Nome);
-
-                stream.Write(bts);
-
-                while (!reader.EndOfStream)
-                {
-                    var linha = reader.ReadLine();
-
-
-                    Console.WriteLine(linha);
-
-                }
-
-                stream.Close();
-            }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
 
     }
