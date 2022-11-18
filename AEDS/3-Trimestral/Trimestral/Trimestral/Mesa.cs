@@ -15,9 +15,11 @@ namespace Trimestral
         private int numMesa;
         private string data;
         private bool reservado;
-        private Comanda comanda;
+        private ComandaBebidas comandaBebidas;
+        private ComandaComidas comandaComidas;
 
-        public Comanda Comanda { get { return comanda; } private set { comanda = value; } }
+        public ComandaBebidas ComandaBebidas { get { return comandaBebidas; } private set { comandaBebidas = value; } }
+        public ComandaComidas ComandaComidas { get { return comandaComidas; } private set { comandaComidas = value; } }
 
         public int TamanhoDaMesa { get { return tamanhoDaMesa; } private set { tamanhoDaMesa = value; } }
         public int NumMesa { get { return numMesa; } private set { numMesa = value; } }
@@ -31,7 +33,8 @@ namespace Trimestral
             incremento++;
             Reservado = false;
             Data = DateTime.Now.ToString();
-            Comanda = new Comanda();
+            ComandaBebidas = new ComandaBebidas();
+            ComandaComidas = new ComandaComidas();
         }
 
         public bool Reservar()
@@ -175,7 +178,7 @@ namespace Trimestral
                         {
                             buffer[j] = Clientes[j];
                         }
-                        for (int j = i; j < Clientes.Length; j++)
+                        for (int j = i; j < buffer.Length; j++)
                         {
                             buffer[j] = Clientes[j + 1];
                         }
@@ -210,9 +213,17 @@ namespace Trimestral
         }
         
         
-        public void AnotarPedido(string pedido, double preco)
+        public void AnotarPedido(string pedido, double preco, int tipo)
         {
-            Comanda.AnotarPedido(pedido, preco);
+            if (tipo == 0)
+            {
+                ComandaBebidas.AnotarPedido(pedido, preco);
+            }
+            else if(tipo == 1)
+            {
+                ComandaComidas.AnotarPedido(pedido, preco);
+            }
+            
         }
 
 
@@ -232,7 +243,10 @@ namespace Trimestral
                 }
 
                 Console.WriteLine($"\nConsumo da mesa:");
-                Comanda.ListarConsumo();
+                Console.WriteLine($"\nComidas:");
+                ComandaComidas.ListarConsumo();
+                Console.WriteLine($"\nBebidas:");
+                ComandaBebidas.ListarConsumo();
             }
 
         }

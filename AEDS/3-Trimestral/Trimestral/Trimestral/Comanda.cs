@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Trimestral
 {
-    public class Comanda
+    public abstract class Comanda
     {
         private string consumo;
         private double valor;

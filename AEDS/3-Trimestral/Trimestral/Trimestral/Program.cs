@@ -208,14 +208,133 @@ namespace Trimestral
                         EscreveLinha(50);
                         Console.WriteLine("");
                         break;
+
+
                     case 6:
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine($"Digite o número da mesa que deseja fazer um pedido: ");
+                        int a = int.Parse(Console.ReadLine());
+                        a = a - 1;
+
+                        if (rest.Mesa[a].Reservado)
+                        {
+                            Console.WriteLine("Mesa reservada corretamente\n");
+
+                            Console.WriteLine($"Digite 0 para fazer o pedido de uma bebida e 1 para fazer o pedido de uma comida: ");
+                            int tipo = int.Parse(Console.ReadLine());
+
+                            Console.WriteLine($"Digite o pedido da mesa: ");
+                            string pedido = Console.ReadLine();
+                            Console.WriteLine($"Digite o valor do pedido: ");
+                            double valor = double.Parse(Console.ReadLine());
+
+                            rest.Mesa[a].AnotarPedido(pedido, valor, tipo);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Mesa não reservada, portanto não há ninguem para fazer um pedido!!!");
+
+                        }
+
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine("");
                         break;
+
+
                     case 7:
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine($"Digite o número da mesa que você deseja listar o consumo: ");
+                        int b = int.Parse(Console.ReadLine());
+                        b = b - 1;
+
+                        if (rest.Mesa[b].Reservado)
+                        {
+                            Console.WriteLine("Mesa reservada corretamente\n");
+                            
+
+                            Console.WriteLine($"\nConsumo da mesa:");
+                            Console.WriteLine($"\nComidas:");
+                            rest.Mesa[b].ComandaComidas.ListarConsumo();
+                            Console.WriteLine($"\nBebidas:");
+                            rest.Mesa[b].ComandaBebidas.ListarConsumo();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Mesa não reservada, portanto não há como listar o consumo!!!");
+
+                        }
+
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine("");
                         break;
+
+
+
                     case 8:
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine($"Digite o número da mesa que você deseja calcular os 10%: ");
+                        int c = int.Parse(Console.ReadLine());
+                        c = c - 1;
+
+                        if (rest.Mesa[c].Reservado)
+                        {
+
+                            double dezPorcento = rest.Mesa[c].ComandaBebidas.Calcular10Porcento() + rest.Mesa[c].ComandaComidas.Calcular10Porcento();
+
+                            Console.WriteLine($"\nOs 10% da mesa {c} é R${dezPorcento.ToString("0.00")} ");
+                        
+                        }
+                        else
+                        {
+                            Console.WriteLine("Mesa não reservada, portanto não é possivel calcular os 10%!!!");
+
+                        }
+
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine("");
                         break;
+
+
                     case 9:
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine($"Digite o número da mesa que deseja dividir a conta: ");
+                        int d = int.Parse(Console.ReadLine());
+                        d = d - 1;
+
+                        if (rest.Mesa[d].Reservado)
+                        {
+                            Console.WriteLine($"Digite o número de pessoas que irão dividir a conta: ");
+                            int numClientes = int.Parse(Console.ReadLine());
+
+                            double valorBeb = rest.Mesa[d].ComandaBebidas.DividirConta(numClientes);
+                            double valorCom = rest.Mesa[d].ComandaComidas.DividirConta(numClientes);
+                            double valorTot = valorBeb + valorCom;
+
+
+                            Console.WriteLine($"O valor a pagar por cada cliente por bebidas: R${valorBeb.ToString("0.00")}");
+                            Console.WriteLine($"O valor a pagar por cada cliente por comidas: R${valorCom.ToString("0.00")}");
+                            Console.WriteLine($"\nO valor a pagar por cada cliente no total: R${valorTot.ToString("0.00")}");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Mesa não reservada, portanto não há ninguem para dividir a conta!!!");
+
+                        }
+
+                        EscreveLinha(50);
+                        EscreveLinha(50);
+                        Console.WriteLine("");
                         break;
+
+
+
                     default:
                         break;
                 }
