@@ -175,9 +175,9 @@ namespace Trimestral
                         {
                             buffer[j] = Clientes[j];
                         }
-                        for (int j = (i + 1); j < Clientes.Length; j++)
+                        for (int j = i; j < Clientes.Length; j++)
                         {
-                            buffer[j] = Clientes[j];
+                            buffer[j] = Clientes[j + 1];
                         }
                         Clientes = buffer;
 
