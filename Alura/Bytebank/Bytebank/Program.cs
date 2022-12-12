@@ -1,7 +1,8 @@
 ﻿using bytebank;
 using bytebank.Titular;
+using System.Collections;
 
-Console.WriteLine("Boas Vindas ao seu Banco, ByteBank!");
+//Console.WriteLine("Boas Vindas ao seu Banco, ByteBank!");
 
 //ContaCorrente conta1 = new ContaCorrente();
 
@@ -44,9 +45,9 @@ Console.WriteLine("Boas Vindas ao seu Banco, ByteBank!");
 
 //Console.WriteLine("Saldo: " + conta4.Saldo);
 
-ContaCorrente conta5 = new ContaCorrente(65, "36985201-X");
-ContaCorrente conta6 = new ContaCorrente(77, "83822495-X");
+//ContaCorrente conta5 = new ContaCorrente(65, "36985201-X");
+//ContaCorrente conta6 = new ContaCorrente(77, "83822495-X");
 
-Console.WriteLine("Total de contas: " + ContaCorrente.TotalDeContasCriadas);
+//Console.WriteLine("Total de contas: " + ContaCorrente.TotalDeContasCriadas);
 
 Console.ReadKey();
