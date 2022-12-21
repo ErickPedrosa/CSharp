@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "Fmo2AaBor9NfjVys1it3C3qeSxHmq/eEz97p5D64pkU=",
+  "Source": "Web",
+  "BasePath": "_content/Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Web\\wwwroot",
+      "Source": "Web",
+      "ContentRoot": "C:\\Users\\erick\\Meus Programas\\CSharp\\Alura\\CasaDoCodigo\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
